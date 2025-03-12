@@ -3,9 +3,8 @@ import { IOMDBResponse } from './omdbresponse';
 import { OmdbApiService } from './services/omdb-api.service';
 import { CommonModule } from '@angular/common';
 import { SearchtitleComponent } from './components/searchtitle/searchtitle.component';
-import { RouterModule } from '@angular/router';
-import { RouterLink } from '@angular/router';
-import { RouterLinkActive } from '@angular/router';
+import { RouterLink, RouterLinkActive, RouterModule  } from '@angular/router';
+
 
 @Component({
   selector: 'app-root',
